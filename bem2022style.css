@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Noto+Nastaliq+Urdu&display=swap');
+    .head{
+        background-color: #323232;
+    height: 80px;
+    z-index: 555555555555555555;
+    position: fixed;
+    width: 100%;
+    }
+    .i1{
+        position: absolute;
+        top: 80px;
+        width: 573px;
+        left: 28%;
+    }
+    *{
+        margin: 0;
+    }
+    .headimg{
+    height: 80px;
+        width: auto;
+        border: solid #323232;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+    }
+/*.....................................
+.......................................*/
+
+
+
+
+nav{
+    position: relative;
+    left: 150px;
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration:none;
+}
+.home{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    left: 600px;
+    font-family: sans-serif;
+    top: -57px;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.home:hover{
+    color: #ffffff;
+    transition:0.5s;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    width:0;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #00e2ff;
+    transition: 0.4s;
+}
+.home:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #00e2ff;
+transition: 0.4s;
+}
+.about{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: 400px;
+    font-family: sans-serif;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.about:hover{
+    color: white;
+    transition: 0.5s;
+}
+.about::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:00;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #00e2ff;
+    transition: 0.4s;
+}
+.about:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #00e2ff;
+    transition: 0.4s;
+}
+.contact{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: 200px;
+    font-family: sans-serif;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.contact:hover{
+    color: white;
+}
+.contact::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:0;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    transition:0.4s;
+    background-color: #00e2ff;
+}
+.contact:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #00e2ff;
+    transition: 0.4s;
+}
+.title{
+    
+        font-family: 'Cairo',sans-serif;
+        position: absolute;
+        top: 130px;
+        left: 40%;
+}
+.desc{
+    font-family: 'Cairo',sans-serif;
+        position: absolute;
+        font-size: 20px;
+        color: rgb(128, 128, 128);
+        top: 190px;
+        left: 38%;
+}
+.facebook {
+    border: solid 4px gray;
+    position: relative;
+    top: 285px;
+    border-radius: 20px;
+    width: 498px;
+    height: 100px;
+    left: 405px;
+    transition: 0.3s;
+    background-color: white;
+}
+.facebook:hover{
+    box-shadow:0px 0px 30px 2px #3a3a3a;
+}
+.name{
+    font-size: 24px;
+    color: #323232;
+    font-family: 'Cairo',sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.name:hover{
+    text-shadow: 0px 0px 9px #646464;
+
+}
+.bem1 {
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 257px;
+    left: 335px;
+    border-radius: 7px;
+}
+.bem2 {
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 683px;
+    left: 335px;
+    border-radius: 7px;
+}
+.bem3{
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 1109px;
+    left: 335px;
+    border-radius: 7px;
+}
+.bem4{
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 1535px;
+    left: 335px;
+    border-radius: 7px;
+}
+.bem5{
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 2030px;
+    left: 334px;
+    border-radius: 7px;
+}
+.bem6{
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 2516px;
+    left: 334px;
+    border-radius: 7px;
+}
+.bem7{
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 3002px;
+    left: 334px;
+    border-radius: 7px;
+}
+.bem8{
+    width: 675px;
+    border: solid 2px gray;
+    position: absolute;
+    top: 3488px;
+    left: 334px;
+    border-radius: 7px;
+}
+::selection{
+    color: #ffffff;
+    background-color: #616161;
+}
+@media(max-width:414px){
+    .title {
+        font-family: 'Cairo',sans-serif;
+        position: absolute;
+        left: 10%;
+        top: 130px;
+        text-align: center;
+    }
+    .desc {
+        font-family: 'Cairo',sans-serif;
+        position: absolute;
+        font-size: 20px;
+        color: rgb(128, 128, 128);
+        top: 195px;
+        left: 5%;
+    }
+    .bem1 {
+        width: 376px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 257px;
+        left: 0;
+        border-radius: 7px;
+    }
+    .bem2 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 506px;
+        left: 0;
+        border-radius: 7px;
+    }
+    .bem3 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 756px;
+        left: 0;
+        border-radius: 7px;
+    }
+    .bem4 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 1005px;
+        left: 0;
+        border-radius: 7px;
+    }
+    .bem5 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 1290px;
+        left: 0;
+        border-radius: 7px;
+    }
+    .bem6 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 1577px;
+        left: 0;
+        border-radius: 7px;
+    }
+    .bem7 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 1858px;
+        left: 0;
+        border-radius: 7px;    
+    }
+    .bem8 {
+        width: 375px;
+        border: solid 2px gray;
+        position: absolute;
+        top: 2131px;
+        left: 0;
+        margin-bottom: 29px;
+        border-radius: 7px;
+    }
+}
